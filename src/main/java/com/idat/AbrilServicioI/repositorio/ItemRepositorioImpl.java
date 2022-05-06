@@ -3,8 +3,11 @@ package com.idat.AbrilServicioI.repositorio;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.stereotype.Repository;
+
 import com.idat.AbrilServicioI.modelo.Items;
 
+@Repository
 public class ItemRepositorioImpl implements ItemRepositorio{
 	
 	public List<Items> listar = new ArrayList<>();
