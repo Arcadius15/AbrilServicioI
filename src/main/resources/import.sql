@@ -1,0 +1,1 @@
+insert into usuario(usuario,password,rol) values('profesor','$2a$12$pHIbm6g1NzuzmRFR1c5Z/OvrfnrQkvQ5mMXNLxDK.q1iYDO4NVKlq','ROLE_YOUTUBE')
